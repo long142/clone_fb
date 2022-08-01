@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    width:100vw;
+    height:60px;
+    background: gray;
+    color:white;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.left_col{
+    flex:0.33;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start
+}
+
+.middle_col{ 
+    flex:0.33; 
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:center
+
+}
+
+.right_col{
+    flex:0.33;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end
+}
+.icon{
+    width: 40px;
+    height: 40px; 
+}
+
+.fb_logo{ 
+    margin-left: 10px;
+    background: red;
+}
+.search_icon{ 
+    background: yellow;
+    margin-left: 10px;
+}
+.marginLeft{
+    margin-left: 10px; 
+}
+.an{
+    display: none;
+}
+/* .marginLeft1{
+    margin-left: 80px;
+} */
+.marginRight{
+    margin-right: 10px;
+}
+.avataricon{
+    background:blue;
+}
+.notification{
+    background: orange;
+}
+.messages{
+    background: purple;
+}
+.addnew{
+    background: white;
+}
+.home{
+    background: tomato;
+}
+.media{
+    background: violet;
+}
+.market{
+    background: steelblue;
+}
+.people{
+    background: tomato; 
+}
+@media screen and (max-width: 600px) {
+    /* .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    } */
+    .an1{
+        display:none;
+    }
+    .an{
+        display:block;
+        margin-left: -15em;
+    }
+}
