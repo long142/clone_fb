@@ -1,7 +1,12 @@
 {
 	"folders": [
 		{
+			"name": "baitapt7",
 			"path": "."
+		},
+		{
+			"name": "level3",
+			"path": "C:\\Users\\Admin\\Desktop\\level3"
 		}
 	],
 	"settings": {
