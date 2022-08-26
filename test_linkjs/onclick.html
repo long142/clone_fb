@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="./style.css" rel="stylesheet">
+        <style>
+              #firing_div {
+                margin-top: 15px;
+                width: 250px;
+                border: 1px solid blue;
+                text-align: center;
+              }
+            </style>
+    </head>
+    <body>
+        <a id="my_link" href="http://www.google.com"> Go to Google </a>
+        <div id="firing_div"> Click me to trigger custom click </div>
+
+        <a href="../f/indexx1.html" class="myBtn" target="_blank">Go</a>
+    </body>
+    <script>
+            function fire_custom_click() {
+            //   alert("firing click!");
+              document.getElementById("my_link").dispatchEvent((function(e){
+                e.initMouseEvent("click", true, true, window, /* type, canBubble, cancelable, view */
+                      0, 0, 0, 0, 0,              /* detail, screenX, screenY, clientX, clientY */
+                      false, false, false, false, /* ctrlKey, altKey, shiftKey, metaKey */
+                      0, null);                   /* button, relatedTarget */
+                return e
+              }(document.createEvent('MouseEvents'))));
+            }
+            document.getElementById("firing_div").onclick = fire_custom_click;
+
+
+            $('.myBtn').on('click', function(event) {
+            event.preventDefault();
+            // $(this).attr('href',"http://someurl.com");
+            $(this).trigger('click');
+    }); 
+          </script>
+</html>
+<!-- <script src="./main.js"></script>  -->
