@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  background-color: #f9f7f7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  width:50% ;
+  background-color: beige;
+  margin:0 auto ;
+}
+.note{
+  color: rgb(168, 37, 14);
+  background-color: aqua;
+ margin-top: 20px ;
+ font-size:30px ;
+}
+.size{
+  padding: 10px;
+  font-size:20px ;
+}
+.input{
+background-color: azure;
+
+width:50% ;
+
+
+}
+.option{
+  padding: 10px;
+}
+
+option:hover{
+  background-color: deepskyblue;
+}
+.add{
+  background-color: rgb(0, 166, 255);
+  font-weight: 600;
+  margin-left: 50px;
+  border-radius:5px ;
+
+}
+.add:hover {
+  background-color: rgb(5, 161, 5);
+}
+.todo{
+  background-color: rgb(41, 215, 111);
+} 

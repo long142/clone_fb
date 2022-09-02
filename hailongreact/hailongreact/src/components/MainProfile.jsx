@@ -391,7 +391,7 @@ export default function MainProfile() {
                         <div className="post-upload-T">
                             <div className="profil-ing-div">
                                 <a href="#" id="profile-link">
-                                    <img id="Profile_images"
+                                    <img id="avatar3"
                                          src="https://png.pngtree.com/png-clipart/20210608/ourlarge/pngtree-dark-gray-simple-avatar-png-image_3418404.jpg"/>
 
                                 </a>
@@ -441,14 +441,14 @@ export default function MainProfile() {
                             <div>
                                 <div className="profil-ing-div post-profile-img">
                                     <a href="#" id="profile-link">
-                                        <img id="Profile_images"
+                                        <img id="avatar2"
                                              src="https://png.pngtree.com/png-clipart/20210608/ourlarge/pngtree-dark-gray-simple-avatar-png-image_3418404.jpg"/>
 
                                     </a>
                                 </div>
                             </div>
                             <div className="post-three-dot">
-                                <h2><a href="#" id="profile_name">MD Meheid
+                                <h2><a href="#" id="username1">MD Meheid
                                         Hasan</a></h2>
                                 <div>
                                     <a href="%">5d</a>
@@ -525,7 +525,7 @@ export default function MainProfile() {
                         </div>
 
                         <p className="post-hader-text" id="post_h_T">Hello World.</p>
-                        <img id="post-image-12" className="post-images"
+                        <img id="avatar4" className="post-images"
                              src="https://png.pngtree.com/png-clipart/20210608/ourlarge/pngtree-dark-gray-simple-avatar-png-image_3418404.jpg"/>
 
                         <div className="post-info-input">
@@ -576,7 +576,7 @@ export default function MainProfile() {
                         <div className="comment-site">
                             <div className="profil-ing-div">
                                 <a href="#" id="profile-link">
-                                    <img id="Profile_images"
+                                    <img id="avatar1"
                                          src="https://png.pngtree.com/png-clipart/20210608/ourlarge/pngtree-dark-gray-simple-avatar-png-image_3418404.jpg"/>
 
                                 </a>
